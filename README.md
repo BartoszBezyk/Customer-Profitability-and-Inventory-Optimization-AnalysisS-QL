@@ -4,16 +4,6 @@ This project aims to analyze a database containing various tables related to cus
 Database Overview
 The database consists of 8 tables: products, productlines, orders, orderdetails, customers, payments, employees, and offices. The tables are related through specific keys, enabling complex queries to extract meaningful insights.
 
-Table Relations
-- products and orderdetails are linked through productCode.
-- products and productlines are linked through productLine.
-- orders and orderdetails are linked through orderNumber.
-- customers and orders are linked through customerNumber.
-- customers and payments are linked through customerNumber.
-- customers and employees are linked through employeeNumber or salesRepEmployeeNumber.
-- employees table self-references for attributes employeeNumber and reportsTo.
-- employees and offices are linked through officeCode.
-
 Methods used in this project:
 -  Common Table Expressions (CTEs)
 -  JOIN Operations
@@ -35,3 +25,13 @@ Our analysis of the cumulative profit by country along with the number of custom
 - New Zealand: New Zealand's total profit is $189,506.58 from 4 customers, averaging $47,376.65 per customer.
   
 Other notable countries include the UK, Italy, Finland, Singapore, and Denmark, each contributing to the overall profitability with varying customer numbers and average profits.
+
+Table Relations
+- products and orderdetails are linked through productCode.
+- products and productlines are linked through productLine.
+- orders and orderdetails are linked through orderNumber.
+- customers and orders are linked through customerNumber.
+- customers and payments are linked through customerNumber.
+- customers and employees are linked through employeeNumber or salesRepEmployeeNumber.
+- employees table self-references for attributes employeeNumber and reportsTo.
+- employees and offices are linked through officeCode.
