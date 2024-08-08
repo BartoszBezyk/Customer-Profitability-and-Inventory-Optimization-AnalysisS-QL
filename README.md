@@ -1,4 +1,4 @@
-# Customer-Profitability-and-Inventory-Optimization-AnalysisS-QL
+# Customer-Profitability-and-Inventory-Optimization-Analysis-SQL
 This project aims to analyze a database containing various tables related to customer orders, payments, and product information to derive insights that can help optimize inventory and marketing strategies.
 
 Database Overview
